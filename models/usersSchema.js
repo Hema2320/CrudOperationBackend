@@ -45,8 +45,14 @@ const usersSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    // savedDetails:{
+    //      type: mongoose.Schema.Types.ObjectId,
+    //       ref: "AuthModel" 
+    // },
     datecreated:Date,
-    dateUpdated:Date
+    dateUpdated:Date,
+    
+
 });
 
 // model
